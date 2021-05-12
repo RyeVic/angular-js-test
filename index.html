@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="../angular.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <title>Learning Angular JS</title>
+  </head>
+  <body ng-app="NameCalculator">
+    <h1>Name Calculator</h1>
+    <div ng-controller="NameController">
+      Your name is:
+      <br/>
+      <input type="text" ng-model="name" ng-blur="format();" >
+    </div>
+  </body>
+</html>
